@@ -20,7 +20,7 @@
 ここのカラーコードを変更するだけで、テンプレートのテーマカラーが変わります。
 ---------------------------------------------------------------------------*/
 :root {
-    --primary-color: #add4dc;
+    --primary-color: #ec0f0f;
 }
 
 
@@ -45,7 +45,7 @@ body {
 	font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
 	background: #fff;	/*背景色*/
-	color: #999;		/*文字色*/
+	color: #777;		/*文字色*/
 	line-height: 2.5;		/*行間*/
 }
 
@@ -58,10 +58,7 @@ nav {margin: 0;padding: 0;}
 table {border-collapse:collapse;}
 
 /*画像全般の設定*/
-img {border: none;max-width: 80%;height: auto;vertical-align: middle;}
-#flyer {
-	text-align: center;
-}
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 
 /*videoタグ*/
 video {max-width: 100%;}
@@ -87,7 +84,7 @@ section + section {
 /*リンクテキスト全般の設定
 ---------------------------------------------------------------------------*/
 a {
-	color: #999;		/*文字色*/
+	color: #777;		/*文字色*/
 	transition: 0.3s;	/*hoverまでにかける時間。0.3秒。*/
 }
 
