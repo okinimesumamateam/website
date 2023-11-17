@@ -170,6 +170,13 @@ header {
 	margin-bottom: 80px;	/*画像の下に空けるスペース*/
 }
 
+.story {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 /*丸いページナビボタン全体を囲むブロック*/
 ul.slick-dots {
 	margin:0;padding: 0;
